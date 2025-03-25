@@ -8,9 +8,12 @@
     <title>Document</title>
 </head>
 <body>
-    <form method="get"></form>
+    <form method="get">
     <input type="text" name="User name">
-    <input type="sumbit" name="submit">
+    <input type="submit" name="submit">
+
+    </form>
+
     
 </body>
 </html>
