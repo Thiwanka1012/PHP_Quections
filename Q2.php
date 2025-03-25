@@ -8,11 +8,20 @@
     <title>Document</title>
 </head>
 <body>
-    <form method="get">
+    <form method="Get">
     <input type="text" name="User name">
     <input type="submit" name="submit">
 
     </form>
+
+
+    <?php
+    
+    $username=$_GET['User name'];
+    echo $username;
+    
+    
+    ?>
 
     
 </body>
