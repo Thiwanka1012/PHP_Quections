@@ -10,11 +10,11 @@ Display your name Using PHP in a PHP Document in the following places
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DTK TV</title>
+    <title><?php echo "DTK Academy"; ?></title>
 </head>
 <body>
-    <h1>DTK TV</h1>
-    <p>DTK Tv</p>
-    <a href="#">DTK TV</a>
+    <h1><?php echo "DTK Academy"; ?></h1>
+    <p><?php echo "DTK Academy"; ?></p>
+    <a href="#"><?php echo "DTK Academy"; ?></a>
 </body>
 </html>
