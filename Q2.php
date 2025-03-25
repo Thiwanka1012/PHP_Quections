@@ -9,7 +9,7 @@
 </head>
 <body>
     <form method="Get">
-    <input type="text" name="User name">
+    <input type="text" name="username">
     <input type="submit" name="submit">
 
     </form>
@@ -17,7 +17,7 @@
 
     <?php
     
-    $username=$_GET['User name'];
+    $username=$_GET['username'];
     echo $username;
     
     
